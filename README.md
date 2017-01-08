@@ -2,6 +2,8 @@
 
 clojure [structure of arrays](https://en.wikipedia.org/wiki/AOS_and_SOA) data type
 
+## `[selfsame/soa "0.0.1-SNAPSHOT"]`
+
 instead of a vector of records
 ```clj
 [#user.z{:a 1, :b 2} 
