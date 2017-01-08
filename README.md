@@ -2,14 +2,17 @@
 
 clojure [structure of arrays](https://en.wikipedia.org/wiki/AOS_and_SOA) data type
 
-## `[selfsame/soa "0.0.1-SNAPSHOT"]`
+clojars
+```clj
+[selfsame/soa "0.0.1-SNAPSHOT"]
+```
 
 instead of a vector of records
 ```clj
 [#user.z{:a 1, :b 2} 
  #user.z{:a 3, :b 4}]
 ```
-its a record of vectors 
+a record of vectors 
 ```clj
 [#user.z{:a [1 3]
 	     :b [2 4]}]
