@@ -1,0 +1,1028 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"par",
+				"parentElement"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
+				"f",
+				"first-phens"
+			],
+			[
+				"make-",
+				"make-health-bar"
+			],
+			[
+				"flip",
+				"flip-sprite"
+			],
+			[
+				"point",
+				"point-texts"
+			],
+			[
+				"advance",
+				"advance-snake"
+			],
+			[
+				"set",
+				"set-text"
+			],
+			[
+				"def",
+				"defcomponent"
+			],
+			[
+				"v",
+				"v\tarcadia"
+			],
+			[
+				"rig",
+				"rigidbody"
+			],
+			[
+				"make",
+				"make-level"
+			],
+			[
+				"ease",
+				"easeregistry"
+			],
+			[
+				"bucket",
+				"bucket-others"
+			],
+			[
+				"farm",
+				"farm-time"
+			],
+			[
+				"Unity",
+				"UnityEngine"
+			],
+			[
+				"ttw",
+				"ttweens"
+			],
+			[
+				"register",
+				"register_structure"
+			],
+			[
+				"indef",
+				"indefinate_name"
+			],
+			[
+				"room",
+				"room_conts"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"show",
+				"show-ratio"
+			],
+			[
+				"redu",
+				"reduce-operate"
+			],
+			[
+				"Sring",
+				"StringGroup"
+			],
+			[
+				"quat",
+				"quat-lerp"
+			],
+			[
+				"road",
+				"road-intersection"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"final",
+				"final_path"
+			],
+			[
+				"sty",
+				"style_target_mode"
+			],
+			[
+				"sele",
+				"selection_mode"
+			],
+			[
+				"style_",
+				"style_hash"
+			],
+			[
+				"hash",
+				"hash_style"
+			],
+			[
+				"sor",
+				"sort_patterns"
+			],
+			[
+				"sel",
+				"Selector"
+			],
+			[
+				"selection",
+				"selectionchange"
+			],
+			[
+				"style",
+				"style_compiler"
+			],
+			[
+				"total",
+				"total_elements"
+			],
+			[
+				"get",
+				"get_nicest_selector"
+			],
+			[
+				"common",
+				"common_id"
+			],
+			[
+				"pop",
+				"pop_best_group"
+			],
+			[
+				"open",
+				"open_callbacks"
+			],
+			[
+				"_",
+				"_fp_page_css"
+			],
+			[
+				"CSS",
+				"CSSRuleSetProxy"
+			],
+			[
+				"com",
+				"compile_sheet"
+			],
+			[
+				"comp",
+				"compare_selectors"
+			],
+			[
+				"user",
+				"user_css"
+			],
+			[
+				"rulese",
+				"ruleset_proxy"
+			],
+			[
+				"se",
+				"selector_source"
+			],
+			[
+				"is",
+				"is_class_contained_in_selection"
+			],
+			[
+				"resize",
+				"resize_tab_labels"
+			],
+			[
+				"pagelayer",
+				"pagelayer_tools_right"
+			],
+			[
+				"describe",
+				"describe_inside"
+			],
+			[
+				"deb",
+				"debug_tool"
+			],
+			[
+				"select",
+				"select_label_class"
+			],
+			[
+				"upd",
+				"update_selection_set"
+			],
+			[
+				"selected",
+				"selected_elements"
+			],
+			[
+				"paren",
+				"parent_path"
+			],
+			[
+				"success",
+				"success_callback"
+			],
+			[
+				"goog",
+				"goog_file_setup"
+			],
+			[
+				"files",
+				"files_loaded"
+			],
+			[
+				"brow",
+				"browser_options"
+			],
+			[
+				"storage_",
+				"_storage_list"
+			],
+			[
+				"succ",
+				"success_callback"
+			],
+			[
+				"stora",
+				"storage_select"
+			],
+			[
+				"folder",
+				"folder_children"
+			],
+			[
+				"mim",
+				"mime_imgs"
+			],
+			[
+				"file",
+				"file_system"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 174,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"last_filter": "men",
+		"selected_items":
+		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"extr",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"wind",
+				"Origami: New Window with Current Layout"
+			],
+			[
+				"syntax: cloj",
+				"Set Syntax: ClojureScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Arcadia"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Add Channel"
+			],
+			[
+				"Snippet: ",
+				"Snippet: arcadia"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 487.0
+	},
+	"console":
+	{
+		"height": 233.0,
+		"history":
+		[
+			"view.run_command(\"expand_selection\", {\"to\": \"word\"})",
+			"text = '(load-string \"' + text.strip().replace('\"', r'\\\"') + '\")'",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).end()-1)",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).end()-1)\\",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).end()-1)",
+			"view.find(r\"^[^;]*?\\(\", 0)",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\".rfind(\"hard.input (:import [UnityEngine Input KeyCode Camera Physics Time])\")",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\".rfind(\"(ns hard.input (:import [UnityEngine Input KeyCode Camera Physics Time])\")",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\".rfind(\"(ns hard.input (:import [UnityEngine Input KeyCode Camera Physics Time]))\")",
+			"dir(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\")",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\"",
+			"view.substr(view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3))",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).substr",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).text",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).lines",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).lines()",
+			"dir(view)",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3)",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).begin()",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3)",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", namespacedecl.begin() + 3)",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).begin() + 1)",
+			"view.find(r\"^[^;]*?\\(\", 0)",
+			"namespacedecl ",
+			"view.scope_name(namespace.begin() + 1)",
+			"view.scope_name(namespacedecl.end()-1)",
+			"namespacedecl = view.find(r\"^[^;]*?\\(\", 0)",
+			"view.find(r\"^[^;]*?\\(\", 0)",
+			"view.scope_name(namespacedecl.end()-1)",
+			"view.scope_name",
+			"view",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/selfsame/dev/soa"
+	],
+	"file_history":
+	[
+		"/home/selfsame/dev/final/src/fast/style.cljs",
+		"/home/selfsame/dev/final/src/fast/records.cljs",
+		"/home/selfsame/dev/final/src/fast/cache.cljs",
+		"/home/selfsame/dev/final/src/fp/flow.cljs",
+		"/home/selfsame/dev/final/src/fast/cache.clj",
+		"/home/selfsame/dev/final/src/fast/core.cljs",
+		"/home/selfsame/dev/final/src/comp/selection.cljs",
+		"/home/selfsame/dev/final/src/fast/util.cljs",
+		"/home/selfsame/dev/final/src/fp/selection.cljs",
+		"/home/selfsame/dev/final/src/comp/style.cljs",
+		"/home/selfsame/dev/final/src/fp/mutate.cljs",
+		"/home/selfsame/dev/final/src/fp/data.cljs",
+		"/home/selfsame/dev/final/src/fp/insertion.cljs",
+		"/home/selfsame/dev/final/src/fp/root.cljs",
+		"/home/selfsame/dev/final/src/comp/outliner.cljs",
+		"/home/selfsame/dev/final/src/fast/element.cljs",
+		"/home/selfsame/dev/final/src/fp/user.cljs",
+		"/home/selfsame/dev/final/src/fp/core.cljs",
+		"/home/selfsame/dev/final/src/comp/dialogue.cljs",
+		"/home/selfsame/dev/final/resources/public/css/outliner.css",
+		"/home/selfsame/dev/final/resources/public/css/icons.css",
+		"/home/selfsame/dev/final/resources/public/img/views.png",
+		"/home/selfsame/dev/final/src/todo.cljs",
+		"/home/selfsame/dev/final/src/comp/next.cljs",
+		"/home/selfsame/dev/final/src/commands/dom.cljs",
+		"/home/selfsame/dev/final/src/fp/util.cljs",
+		"/home/selfsame/dev/final/resources/public/css/tools.css",
+		"/home/selfsame/dev/final/src/commands/triggers.cljs",
+		"/home/selfsame/dev/final/src/skin/data.cljs",
+		"/home/selfsame/dev/final/src/skin/style.cljs",
+		"/home/selfsame/dev/final/project.clj",
+		"/home/selfsame/dev/final/src/sync/storage.cljs",
+		"/home/selfsame/dev/final/src/fp/layout.cljs",
+		"/home/selfsame/dev/final/src/comp/interactive.cljs",
+		"/home/selfsame/dev/final/src/comp/filebrowser.cljs",
+		"/home/selfsame/dev/final/src/sync/mouse.cljs",
+		"/home/selfsame/dev/final/src/commands/core.cljs",
+		"/home/selfsame/dev/final/src/commands/file.cljs",
+		"/home/selfsame/dev/final/src/commands/context.cljs",
+		"/home/selfsame/dev/final/src/commands/workspace.cljs",
+		"/home/selfsame/bin/timelapse.sh",
+		"/home/selfsame/dev/final/src/sync/core.cljs",
+		"/home/selfsame/ednlog/vid/ou.html",
+		"/home/selfsame/ednlog/vid/1.html",
+		"/home/vault/BlackIsle/New folder/cfnm/img/giflife.py",
+		"/home/selfsame/dev/final/resources/public/index.html",
+		"/home/selfsame/dev/final/src/comp/workspace.cljs",
+		"/home/selfsame/dev/final/src/sync/keys.cljs",
+		"/home/selfsame/dev/final/src/fp/canvas.cljs",
+		"/home/selfsame/dev/final/src/fp/macros.clj",
+		"/home/selfsame/dev/final/src/commands/modifiers.cljs",
+		"/home/selfsame/.config/sublime-text-3/Packages/SublimeREPL/Default (Linux).sublime-keymap",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/selfsame/dev/final/resources/public/demo/portfolio.html",
+		"/home/selfsame/dev/final/src/fp/read.cljs",
+		"/home/selfsame/dev/final/src/css/spec.cljs",
+		"/home/selfsame/dev/final/resources/public/demo/fontfancies.html",
+		"/home/selfsame/dev/final/src/css/units.cljs",
+		"/home/selfsame/unity/dual snake/Assets/snake/core.clj",
+		"/home/selfsame/dev/seecode/resources/public/data/code/dual-snake.clj",
+		"/home/selfsame/dev/seecode/resources/public/data/code/show.clj",
+		"/home/selfsame/unity/dual-snake/Assets/game/core.clj",
+		"/home/selfsame/dev/final/resources/public/js/libs/CSS_value_parser.peg",
+		"/home/selfsame/dev/final/resources/public/js/libs/CSS_value_parser.js",
+		"/home/selfsame/Downloads/parser (20).js",
+		"/home/selfsame/Downloads/parser (19).js",
+		"/home/selfsame/Downloads/parser (18).js",
+		"/home/selfsame/Downloads/portfolio.html (3).json",
+		"/home/selfsame/Downloads/portfolio.html (2).json",
+		"/home/selfsame/Downloads/portfolio.html (1).json",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/selfsame/Downloads/portfolio.html.json",
+		"/home/selfsame/Downloads/portfolio.html (3).edn",
+		"/home/selfsame/portfolio.html.edn",
+		"/home/selfsame/Downloads/portfolio2 (1).html",
+		"/home/selfsame/dev/final/resources/public/demo/portfolio2.html",
+		"/home/selfsame/Downloads/portfolio (3).html",
+		"/home/selfsame/dev/final/src/sync/space.cljs",
+		"/home/selfsame/dev/final/resources/public/js/tracking.js",
+		"/home/selfsame/dev/final/coffee/tracking.coffee",
+		"/home/selfsame/dev/final/resources/public/js/libs/peg-value-edn.js",
+		"/home/selfsame/Downloads/parser (17).js",
+		"/home/selfsame/dev/final/resources/public/js/libs/css-value-edn.peg",
+		"/home/selfsame/Downloads/parser (15).js",
+		"/home/selfsame/Downloads/parser (16).js",
+		"/home/selfsame/Downloads/parser (14).js",
+		"/home/selfsame/Downloads/parser (13).js",
+		"/home/selfsame/Downloads/flat (1).edn",
+		"/home/selfsame/Downloads/flat.edn",
+		"/home/selfsame/dev/seecode/resources/public/data/dark.json",
+		"/home/selfsame/dev/final/resources/public/demo/wikifun2.html",
+		"/home/selfsame/dev/final/resources/public/demo/clojure2.html",
+		"/home/selfsame/dev/final/resources/public/demo/clojure.html",
+		"/home/selfsame/dev/final/final.sublime-project",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/inform7.sublime-settings",
+		"/home/selfsame/dev/dungeon-planet.inform/Source/story.ni",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/selfsame/.Xresources",
+		"/home/selfsame/.compton.conf",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/inform7.sublime-build",
+		"/home/selfsame/load_layout.sh",
+		"/home/selfsame/.i3/inform.json",
+		"/home/selfsame/dev/dungeon-planet.inform/Settings.plist",
+		"/home/selfsame/dev/dungeon-planet.inform//",
+		"/home/selfsame/Documents/i7manual.txt",
+		"/home/selfsame/home.sublime-project",
+		"/home/selfsame/dev/ipfs-desk/resources/public/css/style.css",
+		"/C/Users/jparker/Desktop/om.html",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/final/scripts/figwheel.clj",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/ifps3/core.cljs",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/resources/public/css/style.css",
+		"/C/Users/jparker/AppData/Roaming/Sublime Text 3/Packages/User/Scala.sublime-settings",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/heh/core.clj",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/ifps3/util.cljs",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/ifps3/data.cljs",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/scripts/figwheel.clj",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/resources/public/index.html",
+		"/C/Users/jplur/Desktop/oisjfd.gif",
+		"/C/Users/jplur/Desktop/dev/ifps3/resources/public/css/style.css",
+		"/C/Users/jplur/Desktop/dev/ifps3/scripts/figwheel.clj",
+		"/C/Users/jplur/Desktop/dev/ifps3/project.clj",
+		"/C/Users/jplur/Downloads/by-id",
+		"/C/Users/jplur/Desktop/dev/ifps3/src/ifps3/util.cljs",
+		"/C/Users/jplur/Desktop/dev/ifps3/db",
+		"/C/Users/jplur/Desktop/dev/ifps3/src/heh/core.clj",
+		"/D/screenshots/arrow.png",
+		"/C/Users/jplur/Desktop/bake_vertex_diffuse.py",
+		"/C/Users/jplur/Desktop/dev/ifps3/src/heh/core.cljs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"/home/selfsame/dev/final/src",
+			"/home/selfsame/dev/final/resources/public/css",
+			"/home/selfsame/dev/final/resources",
+			"/home/selfsame/dev/final/src",
+			"/home/selfsame/dev/final/src/fast",
+			"/home/selfsame/dev/final/src",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src\\fp",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\resources\\public\\css",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src\\fp",
+			"C:\\Users\\jplur\\work\\dev\\unity\\demo\\Assets\\arcadia\\Source\\clojure",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\hard",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\warmup",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\hard",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"throw",
+			"edn-local-refs",
+			"select-none ",
+			"'",
+			"fast.element",
+			"read-file",
+			"file-loaded",
+			"render",
+			"-recur-up",
+			"selected",
+			"hidden",
+			"element",
+			"touch!",
+			"mutate-val!",
+			"render",
+			"expanded-ancestor",
+			"-recur-down-while",
+			"-copy",
+			"tag!",
+			"selection",
+			"next",
+			"uid-path",
+			"-cached",
+			":selection",
+			":by-uid",
+			"update-native",
+			":by-uid",
+			"cond",
+			"tag",
+			"classes",
+			"ident?",
+			"css-text",
+			"css",
+			"metric",
+			"require",
+			"cd-fn",
+			"dialogue",
+			"Blur",
+			"))))))",
+			"try",
+			"throw",
+			"draw-textbox",
+			"layout",
+			"offsets",
+			"mutate",
+			"resize",
+			"-store",
+			"-height",
+			"NODE-APP",
+			"     {:",
+			"cwd",
+			"-record",
+			"[:style 0]",
+			"views",
+			":views",
+			"node",
+			"      :",
+			")\n",
+			"mutate",
+			"))))))\n",
+			"mutate",
+			"defer-record",
+			"-record",
+			"cursor",
+			"dirty-delta",
+			":uid->token",
+			"expanded-ancestor",
+			"collapse-uids",
+			"font-size",
+			"render-c",
+			"mapcat",
+			"vec",
+			":uid->token",
+			"prototype",
+			"alter-style",
+			"record",
+			"mutate-in",
+			"update-token-children",
+			"Element",
+			":type",
+			":class",
+			":id",
+			":style",
+			":type",
+			":uid",
+			":width",
+			":padding",
+			":padding-left",
+			"\\^D",
+			"^D",
+			"background",
+			"tmargin",
+			"t/",
+			"sync",
+			"]\n",
+			"record-state",
+			"ValueSet",
+			"[:",
+			"record",
+			"_",
+			"edn",
+			"get-in-dom",
+			"handle-under",
+			"-record",
+			":root-uid",
+			":outliner",
+			"type",
+			"render",
+			"record",
+			"ensure-inline",
+			"render-count",
+			"CONTEXT",
+			"std/touch",
+			"prn",
+			"std/update-in",
+			"_background",
+			"drag star",
+			"css-symbol-map",
+			"pprint",
+			"-edn",
+			"\\n",
+			"[^\\/]+\\?",
+			"\\n^",
+			"[^\\\"]+\\?",
+			"font-size",
+			"font-",
+			":value",
+			"mutate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Exception",
+			"->v3",
+			"\\{\\n\\t",
+			"{\\n\\t",
+			" ",
+			" '",
+			"' ",
+			"\" \"",
+			">\\n",
+			"\\n",
+			">\\n",
+			"",
+			"fp.",
+			"BumpTrigger",
+			"",
+			"h2 class=\"feature\"",
+			"h2 class=\"feature\"\n",
+			"/h2\n",
+			"},\n",
+			"\n}",
+			"\n{",
+			":\n",
+			":\\n",
+			"\"statmod\"",
+			"{%blue}",
+			"{#red}{#bold}",
+			"{#black}",
+			"#",
+			"{#yellow}~{#reset}",
+			"{#yellow}",
+			"{%green}#{yellow}{#bold}~{#reset}{%reset}",
+			"{#green}%{#reset}",
+			"cyan",
+			"magenta",
+			"cyan",
+			"green",
+			"black",
+			"%",
+			",\\n",
+			"  {\\n",
+			"[\\n",
+			"[\\r",
+			"[\\n",
+			"[\\n\\r",
+			"[\\n",
+			"call(",
+			"@given",
+			"scope_while",
+			"B \\033[m",
+			"\\033",
+			"/",
+			"%",
+			"arcadia.",
+			"t",
+			"->go",
+			"o",
+			"\"",
+			"#fddab2",
+			"#fdaa4a",
+			"#fdc88b",
+			"CSSBlockProxy"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/inform7.sublime-build",
+	"project": "soa.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"core",
+				"src/fp/core.cljs"
+			],
+			[
+				"todo",
+				"src/todo.cljs"
+			],
+			[
+				"st",
+				"src/comp/style.cljs"
+			],
+			[
+				"read",
+				"src/fp/read.cljs"
+			],
+			[
+				"canva",
+				"src/fp/canvas.cljs"
+			],
+			[
+				"flow",
+				"src/fp/flow.cljs"
+			],
+			[
+				"story",
+				"Source/story.ni"
+			],
+			[
+				"newdiv",
+				"coffee\\newdiv.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "see",
+		"selected_items":
+		[
+			[
+				"see",
+				"~/dev/seecode/seecode.sublime-project"
+			],
+			[
+				"",
+				"~/dev/final/final.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
