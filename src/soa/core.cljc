@@ -1,9 +1,31 @@
-(ns soa.core)
+(ns soa.core
+  (:require [cljs.reader]))
 
-(declare Node)
+(declare Node Graph)
 
 (defprotocol IGraph
   (gget [o id][o id k]))
+
+(defn- novel-key [col k]
+  (if (contains? col k) col
+      (assoc col k 
+        (mapv (fn [_] nil) 
+              (range (count (last (first col))))))))
+
+(defn- extend-keys [col cnt]
+  (reduce 
+    (fn [r [k v]] 
+      (assoc r k 
+        (if (= (count v) cnt) v (conj v nil)))) 
+    {} col))
+
+(defn gupdate [o id k f & more]
+  (Graph. (.-cnt o) 
+    (update-in (novel-key (.-rec o) k) [k id] #(apply f % more))))
+
+(defn gassoc [o id k v]
+  (Graph. (.-cnt o) 
+    (assoc-in (novel-key (.-rec o) k) [k id] v)))
 
 (deftype Graph [cnt rec]
   IGraph
@@ -22,11 +44,22 @@
   (-nth [o n nf]
     (if (and (<= 0 n) (< n cnt))
         (gget o n) nf))
+  ICollection
+  (-conj [coll o]
+    (assert (map? o) (str "soa.core/graph can't conj " o))
+    (Graph. (inc cnt) 
+      (extend-keys 
+        (reduce 
+          (fn [r [k v]] (update-in (novel-key r k) [k] conj v))
+          rec o) (inc cnt))))
   IAssociative
   (-contains-key? [o k] (contains? rec k))
   ILookup
   (-lookup [this k] (-lookup rec k))
-  (-lookup [this k nf] (-lookup rec k nf)))
+  (-lookup [this k nf] (-lookup rec k nf))
+  IPrintWithWriter
+  (-pr-writer [o writer opts] 
+    (-write writer (str "#graph [" (apply str (map #(gget o %) (range cnt))) "]"))))
 
 (deftype Node [graph index]
   IMap
@@ -45,18 +78,6 @@
   ICounted
   (-count [_] (count (.-rec graph))))
 
-(defn gupdate [o id f & more]
-  (let [node (apply f (nth o id) more)]
-    (Graph. (.-cnt o)
-      (reduce
-        (fn [r [k v]]
-          (if (contains? r k)
-              (assoc-in r [k id] v) r))
-        (.-rec o) node))))
-
-(defn graph [cnt rec-type]
-  (let [rec (new rec-type)]
-    (Graph. cnt 
-      (reduce 
-        #(assoc %1 %2 (into [] (take cnt (repeat nil))))
-        rec (keys rec)))))
+(defn graph 
+  ([] (Graph. 0 {}))
+  ([col] (into (graph) col)))

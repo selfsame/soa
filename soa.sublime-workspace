@@ -1,0 +1,1242 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"par",
+				"parentElement"
+			],
+			[
+				"o",
+				"o"
+			],
+			[
+				"f",
+				"first-phens"
+			],
+			[
+				"make-",
+				"make-health-bar"
+			],
+			[
+				"flip",
+				"flip-sprite"
+			],
+			[
+				"point",
+				"point-texts"
+			],
+			[
+				"advance",
+				"advance-snake"
+			],
+			[
+				"set",
+				"set-text"
+			],
+			[
+				"def",
+				"defcomponent"
+			],
+			[
+				"v",
+				"v\tarcadia"
+			],
+			[
+				"rig",
+				"rigidbody"
+			],
+			[
+				"make",
+				"make-level"
+			],
+			[
+				"ease",
+				"easeregistry"
+			],
+			[
+				"bucket",
+				"bucket-others"
+			],
+			[
+				"farm",
+				"farm-time"
+			],
+			[
+				"Unity",
+				"UnityEngine"
+			],
+			[
+				"ttw",
+				"ttweens"
+			],
+			[
+				"register",
+				"register_structure"
+			],
+			[
+				"indef",
+				"indefinate_name"
+			],
+			[
+				"room",
+				"room_conts"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"show",
+				"show-ratio"
+			],
+			[
+				"redu",
+				"reduce-operate"
+			],
+			[
+				"Sring",
+				"StringGroup"
+			],
+			[
+				"quat",
+				"quat-lerp"
+			],
+			[
+				"road",
+				"road-intersection"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"final",
+				"final_path"
+			],
+			[
+				"sty",
+				"style_target_mode"
+			],
+			[
+				"sele",
+				"selection_mode"
+			],
+			[
+				"style_",
+				"style_hash"
+			],
+			[
+				"hash",
+				"hash_style"
+			],
+			[
+				"sor",
+				"sort_patterns"
+			],
+			[
+				"sel",
+				"Selector"
+			],
+			[
+				"selection",
+				"selectionchange"
+			],
+			[
+				"style",
+				"style_compiler"
+			],
+			[
+				"total",
+				"total_elements"
+			],
+			[
+				"get",
+				"get_nicest_selector"
+			],
+			[
+				"common",
+				"common_id"
+			],
+			[
+				"pop",
+				"pop_best_group"
+			],
+			[
+				"open",
+				"open_callbacks"
+			],
+			[
+				"_",
+				"_fp_page_css"
+			],
+			[
+				"CSS",
+				"CSSRuleSetProxy"
+			],
+			[
+				"com",
+				"compile_sheet"
+			],
+			[
+				"comp",
+				"compare_selectors"
+			],
+			[
+				"user",
+				"user_css"
+			],
+			[
+				"rulese",
+				"ruleset_proxy"
+			],
+			[
+				"se",
+				"selector_source"
+			],
+			[
+				"is",
+				"is_class_contained_in_selection"
+			],
+			[
+				"resize",
+				"resize_tab_labels"
+			],
+			[
+				"pagelayer",
+				"pagelayer_tools_right"
+			],
+			[
+				"describe",
+				"describe_inside"
+			],
+			[
+				"deb",
+				"debug_tool"
+			],
+			[
+				"select",
+				"select_label_class"
+			],
+			[
+				"upd",
+				"update_selection_set"
+			],
+			[
+				"selected",
+				"selected_elements"
+			],
+			[
+				"paren",
+				"parent_path"
+			],
+			[
+				"success",
+				"success_callback"
+			],
+			[
+				"goog",
+				"goog_file_setup"
+			],
+			[
+				"files",
+				"files_loaded"
+			],
+			[
+				"brow",
+				"browser_options"
+			],
+			[
+				"storage_",
+				"_storage_list"
+			],
+			[
+				"succ",
+				"success_callback"
+			],
+			[
+				"stora",
+				"storage_select"
+			],
+			[
+				"folder",
+				"folder_children"
+			],
+			[
+				"mim",
+				"mime_imgs"
+			],
+			[
+				"file",
+				"file_system"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tests/soa/tests.cljc",
+			"settings":
+			{
+				"buffer_size": 815,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "(ns soa.tests"
+			}
+		},
+		{
+			"file": "src/soa/core.cljc",
+			"settings":
+			{
+				"buffer_size": 1446,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Lumo 1.0.0\nClojureScript 1.9.293\n Docs: (doc function-name-here)\n Exit: Control+D or :cljs/quit or exit\n\ncljs.user=> (require 'soa.core )\n(require 'soa.core )\r\nnil\ncljs.user=> (require 'soa.tests)\n(require 'soa.tests)\r\n\nTesting soa.tests\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (thrown? js/TypeError (keys foo-graph))\n  actual: nil\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (= (keys (first foo-graph)) (list :a :b :c))\n  actual: (not (= nil (:a :b :c)))\n\nRan 2 tests containing 4 assertions.\n2 failures, 0 errors.\nnil\ncljs.user=> (ns soa.tests\r\n       #_=>   (:require \r\n       #_=>     soa.core\r\n       #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (first foo-graph)\n(first foo-graph)\r\n#object[soa.core.Node]\nsoa.tests=> (type (first foo-graph))\n(type (first foo-graph))\r\nsoa.core/Node\nsoa.tests=> (assoc (first foo-graph) ::z true)\n(assoc (first foo-graph) ::z true)\r\n#soa.tests.foo{:a nil, :b nil, :c nil, :soa.tests/z true}\nsoa.tests=> #soa.tests.foo{:a nil, :b nil, :c nil, :soa.tests/z true}\n#soa.tests.foo{:a nil, :b nil, :c nil, :soa.tests/z true}\r\n#error {:message No reader function for tag soa.tests.foo, :data {:type :reader-exception}}\nsoa.tests=> (type (assoc (first foo-graph) ::z true))\n(type (assoc (first foo-graph) ::z true))\r\nsoa.tests/foo\nsoa.tests=> soa.core.Node\nsoa.core.Node\r\nsoa.core/Node\nsoa.tests=> (soa.core.Node. 0 foo-graph)\n(soa.core.Node. 0 foo-graph)\r\n#object[soa.core.Node]\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (thrown? js/TypeError (keys foo-graph))\n  actual: nil\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (= (keys (first foo-graph)) (list :a :b :c))\n  actual: (not (= nil (:a :b :c)))\n\nRan 2 tests containing 6 assertions.\n2 failures, 0 errors.\nnil\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (thrown? js/TypeError (keys foo-graph))\n  actual: nil\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (= (keys (first foo-graph)) (list :a :b :c))\n  actual: (not (= nil (:a :b :c)))\n\nRan 2 tests containing 6 assertions.\n2 failures, 0 errors.\nnil\nsoa.tests=> (first foo-graph)\n(first foo-graph)\r\n#object[soa.core.Node]\nsoa.tests=> (key (first foo-graph))\n(key (first foo-graph))\r\n#object[soa.core.Node]\nsoa.tests=> (val (first foo-graph))\n(val (first foo-graph))\r\n#object[soa.core.Node]\nsoa.tests=> (seq (first foo-graph))\n(seq (first foo-graph))\r\nnil\nsoa.tests=> (ns soa.core)\r\nnil\nsoa.core=> \r\n\nsoa.core=> (deftype Node [graph index]\r\n      #_=>   IMap\r\n      #_=>   (-dissoc [o k] o)\r\n      #_=>   ILookup\r\n      #_=>   (-lookup [this k] (nth (get (.-rec graph) k) index))\r\n      #_=>   (-lookup [this k not-found])\r\n      #_=>   ISeqable\r\n      #_=>   (-seq [o] (-seq (gget graph index)))\r\n      #_=>   IMapEntry\r\n      #_=>   (-key [o] index)\r\n      #_=>   (-val [o] (gget graph index))\r\n      #_=>   IAssociative\r\n      #_=>   (-contains-key? [o k] (contains? (.-rec graph) k))\r\n      #_=>   (-assoc [o k v] (-assoc (gget graph index) k v))\r\n      #_=>   ICounted\r\n      #_=>   (-count [_] (count (.-rec graph))))\r\nsoa.core/Node\nsoa.core=> \r\n\nsoa.core=> (ns soa.tests\r\n      #_=>   (:require \r\n      #_=>     soa.core\r\n      #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (seq (first foo-graph))\n(seq (first foo-graph))\r\n([:a nil] [:b nil] [:c nil])\nsoa.tests=> (val (first foo-graph))\n(val (first foo-graph))\r\n#soa.tests.foo{:a nil, :b nil, :c nil}\nsoa.tests=> (key (first foo-graph))\n(key (first foo-graph))\r\n0\nsoa.tests=> (run-tests)\r\n\nTesting soa.tests\n\nFAIL in (associativity) (at <embedded>:6923:3)\nexpected: (thrown? js/TypeError (keys foo-graph))\n  actual: nil\n\nRan 2 tests containing 6 assertions.\n1 failures, 0 errors.\nnil\nsoa.tests=> \r\n\nsoa.tests=> (keys foo-graph)\n(keys foo-graph)\r\n(0 1 2 3 4)\nsoa.tests=> (vals foo-graph)\n(vals foo-graph)\r\n(#soa.tests.foo{:a nil, :b nil, :c nil} #soa.tests.foo{:a nil, :b nil, :c nil} #soa.tests.foo{:a nil, :b nil, :c nil} #soa.tests.foo{:a nil, :b nil, :c nil} #soa.tests.foo{:a nil, :b nil, :c nil})\nsoa.tests=> (map identity foo-graph)\n(map identity foo-graph)\r\n(#object[soa.core.Node] #object[soa.core.Node] #object[soa.core.Node] #object[soa.core.Node] #object[soa.core.Node])\nsoa.tests=> (map :a foo-graph)\n(map :a foo-graph)\r\n(nil nil nil nil nil)\nsoa.tests=> (map keys foo-graph)\n(map keys foo-graph)\r\n((:a :b :c) (:a :b :c) (:a :b :c) (:a :b :c) (:a :b :c))\nsoa.tests=> (deftest associativity\r\n       #_=>   (is (= (keys foo-graph) '(0 1 2 3 4)))\r\n       #_=>   (is (= (keys (first foo-graph)) '(:a :b :c)))\r\n       #_=>   (is (= (type (first foo-graph))\r\n       #_=>          soa.core.Node))\r\n       #_=>   (is (= (type (assoc (first foo-graph) ::z true))\r\n       #_=>          soa.tests/foo)))\r\n#'soa.tests/associativity\nsoa.tests=> \r\n\nsoa.tests=> (run-tests)\r\n\nTesting soa.tests\n\nRan 2 tests containing 6 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defprotocol IGraph\r\n       #_=>   (gget [o id][o id k])\r\n       #_=>   (gupdate [o id f & more]))\r\nnil\nWARNING: Protocol IGraph declares method gupdate with variadic signature (&) at line 1 \nWARNING: Use of undeclared Var soa.tests/& at line 3 \nWARNING: Use of undeclared Var soa.tests/& at line 3 \nWARNING: Use of undeclared Var soa.tests/& at line 3 \nsoa.tests=> \r\n\nsoa.tests=> (apply + 1 2 '(3 4))\n(apply + 1 2 '(3 4))\r\n10\nsoa.tests=> (apply + 1 2 '(3))\n(apply + 1 2 '(3))\r\n6\nsoa.tests=> (defn gupdate [o id f & more]\r\n       #_=>   (let [node (apply f (gget o) more)\r\n       #_=>         rec (.-rec o)]\r\n       #_=>     (Graph. (.-cnt o)\r\n       #_=>       (reduce\r\n       #_=>         (fn [r [k v]]\r\n       #_=>           (assoc-in r [k id] v))\r\n       #_=>         rec node))))\r\n#'soa.tests/gupdate\nWARNING: Wrong number of args (1) passed to soa.tests/gget at line 2 \nWARNING: Use of undeclared Var soa.tests/Graph at line 4 \nWARNING: Use of undeclared Var soa.tests/Graph at line 4 \nsoa.tests=> \r\n\nsoa.tests=> (defn gupdate [o id f & more]\r\n       #_=>   (let [node (apply f (gget o id) more)\r\n       #_=>         rec (.-rec o)]\r\n       #_=>     (Graph. (.-cnt o)\r\n       #_=>       (reduce\r\n       #_=>         (fn [r [k v]]\r\n       #_=>           (assoc-in r [k id] v))\r\n       #_=>         rec node))))\r\n#'soa.tests/gupdate\nWARNING: Use of undeclared Var soa.tests/Graph at line 4 \nWARNING: Use of undeclared Var soa.tests/Graph at line 4 \nsoa.tests=> \r\n\nsoa.tests=> (ns soa.core)\r\nnil\nsoa.core=> \r\n\nsoa.core=> (deftype Graph [cnt rec]\r\n      #_=>   IGraph\r\n      #_=>   (gget [o id] \r\n      #_=>     (reduce \r\n      #_=>       #(assoc %1 %2 (nth (get rec %2) id))\r\n      #_=>       rec (keys rec)))\r\n      #_=>   (gget [o id k] \r\n      #_=>     (nth (get rec k) id))\r\n      #_=>   ICounted\r\n      #_=>   (-count [coll] cnt)\r\n      #_=>   ISeqable\r\n      #_=>   (-seq [o] (map-indexed #(Node. o %1) (range cnt)))\r\n      #_=>   IIndexed\r\n      #_=>   (-nth [o n] (gget o n))\r\n      #_=>   (-nth [o n nf]\r\n      #_=>     (if (and (<= 0 n) (< n cnt))\r\n      #_=>         (gget o n) nf))\r\n      #_=>   IAssociative\r\n      #_=>   (-contains-key? [o k] (contains? rec k))\r\n      #_=>   ILookup\r\n      #_=>   (-lookup [this k] (-lookup rec k))\r\n      #_=>   (-lookup [this k nf] (-lookup rec k nf)))\r\nsoa.core/Graph\nsoa.core=> \r\n\nsoa.core=> (deftype Node [graph index]\r\n      #_=>   IMap\r\n      #_=>   (-dissoc [o k] o)\r\n      #_=>   ILookup\r\n      #_=>   (-lookup [this k] (nth (get (.-rec graph) k) index))\r\n      #_=>   (-lookup [this k not-found])\r\n      #_=>   ISeqable\r\n      #_=>   (-seq [o] (-seq (gget graph index)))\r\n      #_=>   IMapEntry\r\n      #_=>   (-key [o] index)\r\n      #_=>   (-val [o] (gget graph index))\r\n      #_=>   IAssociative\r\n      #_=>   (-contains-key? [o k] (contains? (.-rec graph) k))\r\n      #_=>   (-assoc [o k v] (-assoc (gget graph index) k v))\r\n      #_=>   ICounted\r\n      #_=>   (-count [_] (count (.-rec graph))))\r\nsoa.core/Node\nsoa.core=> \r\n\nsoa.core=> (defn gupdate [o id f & more]\r\n      #_=>   (let [node (apply f (gget o id) more)\r\n      #_=>         rec (.-rec o)]\r\n      #_=>     (Graph. (.-cnt o)\r\n      #_=>       (reduce\r\n      #_=>         (fn [r [k v]]\r\n      #_=>           (assoc-in r [k id] v))\r\n      #_=>         rec node))))\r\n#'soa.core/gupdate\nsoa.core=> \r\n\nsoa.core=> (defn graph [cnt rec-type]\r\n      #_=>   (let [rec (new rec-type)]\r\n      #_=>     (Graph. cnt \r\n      #_=>       (reduce \r\n      #_=>         #(assoc %1 %2 (into [] (take cnt (repeat nil))))\r\n      #_=>         rec \r\n      #_=>         (keys rec)))))\r\n#'soa.core/graph\nsoa.core=> \r\n\nsoa.core=> (ns soa.tests\r\n      #_=>   (:require \r\n      #_=>     soa.core\r\n      #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (require 'soa.core :reload)\n(require 'soa.core :reload)\r\nnil\nsoa.tests=> (ns soa.tests\r\n       #_=>   (:require \r\n       #_=>     soa.core\r\n       #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (first foo-graph)\n(first foo-graph)\r\n#object[soa.core.Node]\nsoa.tests=> (gget foo-graph 0)\n(gget foo-graph 0)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> (require 'soa.core :reload)\n(require 'soa.core :reload)\r\nnil\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nRan 2 tests containing 6 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (ns soa.core)\r\nnil\nsoa.core=> \r\n\nsoa.core=> (defprotocol IGraph\r\n      #_=>   (gget [o id][o id k]))\r\nnil\nsoa.core=> \r\n\nsoa.core=> (deftype Graph [cnt rec]\r\n      #_=>   IGraph\r\n      #_=>   (gget [o id] \r\n      #_=>     (reduce \r\n      #_=>       #(assoc %1 %2 (nth (get rec %2) id))\r\n      #_=>       rec (keys rec)))\r\n      #_=>   (gget [o id k] \r\n      #_=>     (nth (get rec k) id))\r\n      #_=>   ICounted\r\n      #_=>   (-count [coll] cnt)\r\n      #_=>   ISeqable\r\n      #_=>   (-seq [o] (map-indexed #(Node. o %1) (range cnt)))\r\n      #_=>   IIndexed\r\n      #_=>   (-nth [o n] (gget o n))\r\n      #_=>   (-nth [o n nf]\r\n      #_=>     (if (and (<= 0 n) (< n cnt))\r\n      #_=>         (gget o n) nf))\r\n      #_=>   IAssociative\r\n      #_=>   (-contains-key? [o k] (contains? rec k))\r\n      #_=>   ILookup\r\n      #_=>   (-lookup [this k] (-lookup rec k))\r\n      #_=>   (-lookup [this k nf] (-lookup rec k nf)))\r\nsoa.core/Graph\nsoa.core=> \r\n\nsoa.core=> (deftype Node [graph index]\r\n      #_=>   IMap\r\n      #_=>   (-dissoc [o k] o)\r\n      #_=>   ILookup\r\n      #_=>   (-lookup [this k] (nth (get (.-rec graph) k) index))\r\n      #_=>   (-lookup [this k not-found])\r\n      #_=>   ISeqable\r\n      #_=>   (-seq [o] (-seq (gget graph index)))\r\n      #_=>   IMapEntry\r\n      #_=>   (-key [o] index)\r\n      #_=>   (-val [o] (gget graph index))\r\n      #_=>   IAssociative\r\n      #_=>   (-contains-key? [o k] (contains? (.-rec graph) k))\r\n      #_=>   (-assoc [o k v] (-assoc (gget graph index) k v))\r\n      #_=>   ICounted\r\n      #_=>   (-count [_] (count (.-rec graph))))\r\nsoa.core/Node\nsoa.core=> \r\n\nsoa.core=> (defn gupdate [o id f & more]\r\n      #_=>   (let [node (apply f (gget o id) more)]\r\n      #_=>     (Graph. (.-cnt o)\r\n      #_=>       (reduce\r\n      #_=>         (fn [r [k v]]\r\n      #_=>           (assoc-in r [k id] v))\r\n      #_=>         (.-rec o) node))))\r\n#'soa.core/gupdate\nsoa.core=> \r\n\nsoa.core=> (defn graph [cnt rec-type]\r\n      #_=>   (let [rec (new rec-type)]\r\n      #_=>     (Graph. cnt \r\n      #_=>       (reduce \r\n      #_=>         #(assoc %1 %2 (into [] (take cnt (repeat nil))))\r\n      #_=>         rec \r\n      #_=>         (keys rec)))))\r\n#'soa.core/graph\nsoa.core=> \r\n\nsoa.core=> (deftype j [a])\n(deftype j [a])\r\nsoa.core/j\nsoa.core=> (graph 10 j)\n(graph 10 j)\r\nError: [object Object] is not ISeqable\nsoa.core=> (keys j)\n(keys j)\r\nError: function (a){\nthis.a = a;\n} is not ISeqable\nsoa.core=> (new j)\n(new j)\r\n#object[soa.core.j]\nWARNING: Wrong number of args (0) passed to j at line 1 \nsoa.core=> (new soa.core.j)\n(new soa.core.j)\r\n#object[soa.core.j]\nsoa.core=> (graph 5 (new soa.core.j))\n(graph 5 (new soa.core.j))\r\nTypeError: rec_type is not a constructor\nsoa.core=> (ns soa.tests\r\n      #_=>   (:require \r\n      #_=>     soa.core\r\n      #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (gget foo-graph 0)\n(gget foo-graph 0)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> (soa.core/gget foo-graph 0)\n(soa.core/gget foo-graph 0)\r\n#soa.tests.foo{:a nil, :b nil, :c nil}\nsoa.tests=> (defn graph [cnt rec-type]\r\n       #_=>   (let [rec (new rec-type)]\r\n       #_=>     (soa.core.Graph. cnt \r\n       #_=>       (reduce \r\n       #_=>         #(assoc %1 %2 (into [] (take cnt (repeat nil))))\r\n       #_=>         rec \r\n       #_=>         (keys rec)))))\r\n#'soa.tests/graph\nsoa.tests=> \r\n\nsoa.tests=> (require 'soa.core :reload)\n(require 'soa.core :reload)\r\nnil\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nRan 2 tests containing 6 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> (ns soa.tests\r\n       #_=>   (:require \r\n       #_=>     soa.core\r\n       #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (ns soa.tests\r\n       #_=>   (:require \r\n       #_=>     soa.core\r\n       #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (deftest sequenciality\r\n       #_=>   (is (= (count foo-graph) 5))\r\n       #_=>   (is (= (-> foo-graph first :a) nil)))\r\n#'soa.tests/sequenciality\nsoa.tests=> \r\n\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> IGraph.gget\nIGraph.gget\r\nnil\nsoa.tests=> (gget foo-graph 0)\n(gget foo-graph 0)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> (IGraph.gget foo-graph 0)\n(IGraph.gget foo-graph 0)\r\nTypeError: Cannot read property 'call' of undefined\nsoa.tests=> (first foo-graph)\n(first foo-graph)\r\n#object[soa.core.Node]\nsoa.tests=> (apply assoc (first foo-graph) :a ::b)\n(apply assoc (first foo-graph) :a ::b)\r\nError: :soa.tests/b is not ISeqable\nsoa.tests=> (assoc (first foo-graph) :a ::b)\n(assoc (first foo-graph) :a ::b)\r\n#soa.tests.foo{:a :soa.tests/b, :b nil, :c nil}\nsoa.tests=> (apply assoc (first foo-graph) [:a ::b])\n(apply assoc (first foo-graph) [:a ::b])\r\n#soa.tests.foo{:a :soa.tests/b, :b nil, :c nil}\nsoa.tests=> (require 'soa.core :reload)\n(require 'soa.core :reload)\r\nnil\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nRan 2 tests containing 6 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (ns soa.tests\r\n       #_=>   (:require \r\n       #_=>     soa.core\r\n       #_=>     [cljs.test :refer-macros [deftest is testing run-tests]]))\r\nnil\nsoa.tests=> \r\n\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> (gupdate foo-graph 0 assoc :a ::z)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (soa.core/gupdate foo-graph 0 assoc :a ::z)\r\n#object[soa.core.Graph]\nsoa.tests=> \r\n\nsoa.tests=> (soa.core/gupdate foo-graph 0 assoc :a ::z)\r\n#object[soa.core.Graph]\nsoa.tests=> \r\n\nsoa.tests=> (map :a (soa.core/gupdate foo-graph 0 assoc :a ::z))\r\n(:soa.tests/z nil nil nil nil)\nsoa.tests=> \r\n\nsoa.tests=> (gget foo-graph 0)\n(gget foo-graph 0)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> (soa.core/gget foo-graph 0)\n(soa.core/gget foo-graph 0)\r\n#soa.tests.foo{:a nil, :b nil, :c nil}\nsoa.tests=> (deftest associativity\r\n       #_=>   (is (= (keys foo-graph) \r\n       #_=>         '(0 1 2 3 4)))\r\n       #_=>   (is (= (keys (first foo-graph)) \r\n       #_=>         '(:a :b :c)))\r\n       #_=>   (is (= (type (first foo-graph))\r\n       #_=>          soa.core.Node))\r\n       #_=>   (is (= (type (assoc (first foo-graph) ::z true))\r\n       #_=>          soa.tests/foo))\r\n       #_=>   (is (= (-> (soa.core/gupdate foo-graph 0 assoc :a ::z) first :a)\r\n       #_=>          ::z))\r\n       #_=>   )\r\n#'soa.tests/associativity\nsoa.tests=> \r\n\nsoa.tests=> (run-tests)\r\n\nTesting soa.tests\n\nRan 2 tests containing 7 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> \r\n\nsoa.tests=> (soa.core/gupdate foo-graph 0 assoc :z ::z)\r\n#object[soa.core.Graph]\nsoa.tests=> \r\n\nsoa.tests=> (.-rec (soa.core/gupdate foo-graph 0 assoc :z ::z))\r\n#soa.tests.foo{:a [nil nil nil nil nil], :b [nil nil nil nil nil], :c [nil nil nil nil nil], :z {0 :soa.tests/z}}\nsoa.tests=> \r\n\nsoa.tests=> (gget (soa.core/gupdate foo-graph 0 assoc :z ::z) 0)\r\nError: No protocol method IGraph.gget defined for type soa.core/Graph: [object Object]\nsoa.tests=> \r\n\nsoa.tests=> (soa.core/gget (soa.core/gupdate foo-graph 0 assoc :z ::z) 0)\r\nError: nth not supported on this type cljs.core/PersistentHashMap\nsoa.tests=> \r\n\nsoa.tests=> (contains-key? foo-graph :a)\r\nTypeError: Cannot read property 'call' of undefined\nWARNING: Use of undeclared Var soa.tests/contains-key? at line 1 \nsoa.tests=> \r\n\nsoa.tests=> (contains? foo-graph :a)\r\ntrue\nsoa.tests=> \r\n\nsoa.tests=> (contains? foo-graph :z)\r\nfalse\nsoa.tests=> \r\n\nsoa.tests=> (require 'soa.core :reload)\n(require 'soa.core :reload)\r\nnil\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nRan 2 tests containing 6 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> (soa.core/gget (soa.core/gupdate foo-graph 0 assoc :z ::z) 0)\r\n#soa.tests.foo{:a nil, :b nil, :c nil}\nsoa.tests=> \r\n\nsoa.tests=> (-> (soa.core/gupdate foo-graph 0 assoc :z ::z) first keys)\r\n(:a :b :c)\nsoa.tests=> \r\n\nsoa.tests=> (require 'soa.tests :reload)\n(require 'soa.tests :reload)\r\n\nTesting soa.tests\n\nRan 2 tests containing 9 assertions.\n0 failures, 0 errors.\nnil\nsoa.tests=> (defrecord z [a b])\n(defrecord z [a b])\r\nsoa.tests/z\nsoa.tests=> (z 1 2)\n(z 1 2)\r\nTypeError: Cannot set property 'a' of null\nWARNING: Cannot invoke type constructor soa.tests/z as function  at line 1 \nsoa.tests=> (z. 1 2)\n(z. 1 2)\r\n#soa.tests.z{:a 1, :b 2}\nsoa.tests=> (defrecord foo [a b c])\r\nsoa.tests/foo\nsoa.tests=> \r\n\nsoa.tests=> (def foo-graph (soa.core/graph 5 foo))\r\n#'soa.tests/foo-graph\nsoa.tests=> \r\n\nsoa.tests=> foo-graph\nfoo-graph\r\n#object[soa.core.Graph]\nsoa.tests=> (seq foo-graph)\n(seq foo-graph)\r\n(#object[soa.core.Node] #object[soa.core.Node] #object[soa.core.Node] #object[soa.core.Node] #object[soa.core.Node])\nsoa.tests=> (soa.core/gget foo-graph 0)\n(soa.core/gget foo-graph 0)\r\n#soa.tests.foo{:a nil, :b nil, :c nil}\nsoa.tests=> (count (first foo-graph))\n(count (first foo-graph))\r\n3\nsoa.tests=> ",
+			"settings":
+			{
+				"buffer_size": 20596,
+				"line_ending": "Unix",
+				"name": "*REPL* [clojure]",
+				"scratch": true
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 726,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soa.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "project.clj",
+			"settings":
+			{
+				"buffer_size": 205,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"last_filter": "men",
+		"selected_items":
+		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"extr",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"wind",
+				"Origami: New Window with Current Layout"
+			],
+			[
+				"syntax: cloj",
+				"Set Syntax: ClojureScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Arcadia"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Add Channel"
+			],
+			[
+				"Snippet: ",
+				"Snippet: arcadia"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 487.0
+	},
+	"console":
+	{
+		"height": 233.0,
+		"history":
+		[
+			"view.run_command(\"expand_selection\", {\"to\": \"word\"})",
+			"text = '(load-string \"' + text.strip().replace('\"', r'\\\"') + '\")'",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).end()-1)",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).end()-1)\\",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).end()-1)",
+			"view.find(r\"^[^;]*?\\(\", 0)",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\".rfind(\"hard.input (:import [UnityEngine Input KeyCode Camera Physics Time])\")",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\".rfind(\"(ns hard.input (:import [UnityEngine Input KeyCode Camera Physics Time])\")",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\".rfind(\"(ns hard.input (:import [UnityEngine Input KeyCode Camera Physics Time]))\")",
+			"dir(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\")",
+			"r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\"",
+			"view.substr(view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3))",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).substr",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).text",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).lines",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).lines()",
+			"dir(view)",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3)",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3).begin()",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", view.find(r\"^[^;]*?\\(\", 0).begin() + 3)",
+			"view.find(r\"[\\}\\s][A-Za-z\\_!\\?\\*\\+\\-][\\w!\\?\\*\\+\\-:]*(\\.[\\w!\\?\\*\\+\\-:]+)*\", namespacedecl.begin() + 3)",
+			"view.scope_name(view.find(r\"^[^;]*?\\(\", 0).begin() + 1)",
+			"view.find(r\"^[^;]*?\\(\", 0)",
+			"namespacedecl ",
+			"view.scope_name(namespace.begin() + 1)",
+			"view.scope_name(namespacedecl.end()-1)",
+			"namespacedecl = view.find(r\"^[^;]*?\\(\", 0)",
+			"view.find(r\"^[^;]*?\\(\", 0)",
+			"view.scope_name(namespacedecl.end()-1)",
+			"view.scope_name",
+			"view",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/selfsame/dev/soa",
+		"/home/selfsame/dev/soa/src",
+		"/home/selfsame/dev/soa/src/soa",
+		"/home/selfsame/dev/soa/tests",
+		"/home/selfsame/dev/soa/tests/soa"
+	],
+	"file_history":
+	[
+		"/home/selfsame/dev/soa/soa/core.cljc",
+		"/home/selfsame/.config/sublime-text-3/Packages/lumo-repl/Main.sublime-menu",
+		"/home/selfsame/dev/soa/src/soa/core.cljc",
+		"/home/selfsame/dev/final/project.clj",
+		"/home/selfsame/dev/soa/.gitignore",
+		"/home/selfsame/dev/final/src/fast/cache.cljs",
+		"/home/selfsame/dev/final/src/fast/style.cljs",
+		"/home/selfsame/dev/final/src/fast/records.cljs",
+		"/home/selfsame/dev/final/src/fp/flow.cljs",
+		"/home/selfsame/dev/final/src/fast/cache.clj",
+		"/home/selfsame/dev/final/src/fast/core.cljs",
+		"/home/selfsame/dev/final/src/comp/selection.cljs",
+		"/home/selfsame/dev/final/src/fast/util.cljs",
+		"/home/selfsame/dev/final/src/fp/selection.cljs",
+		"/home/selfsame/dev/final/src/comp/style.cljs",
+		"/home/selfsame/dev/final/src/fp/mutate.cljs",
+		"/home/selfsame/dev/final/src/fp/data.cljs",
+		"/home/selfsame/dev/final/src/fp/insertion.cljs",
+		"/home/selfsame/dev/final/src/fp/root.cljs",
+		"/home/selfsame/dev/final/src/comp/outliner.cljs",
+		"/home/selfsame/dev/final/src/fast/element.cljs",
+		"/home/selfsame/dev/final/src/fp/user.cljs",
+		"/home/selfsame/dev/final/src/fp/core.cljs",
+		"/home/selfsame/dev/final/src/comp/dialogue.cljs",
+		"/home/selfsame/dev/final/resources/public/css/outliner.css",
+		"/home/selfsame/dev/final/resources/public/css/icons.css",
+		"/home/selfsame/dev/final/resources/public/img/views.png",
+		"/home/selfsame/dev/final/src/todo.cljs",
+		"/home/selfsame/dev/final/src/comp/next.cljs",
+		"/home/selfsame/dev/final/src/commands/dom.cljs",
+		"/home/selfsame/dev/final/src/fp/util.cljs",
+		"/home/selfsame/dev/final/resources/public/css/tools.css",
+		"/home/selfsame/dev/final/src/commands/triggers.cljs",
+		"/home/selfsame/dev/final/src/skin/data.cljs",
+		"/home/selfsame/dev/final/src/skin/style.cljs",
+		"/home/selfsame/dev/final/src/sync/storage.cljs",
+		"/home/selfsame/dev/final/src/fp/layout.cljs",
+		"/home/selfsame/dev/final/src/comp/interactive.cljs",
+		"/home/selfsame/dev/final/src/comp/filebrowser.cljs",
+		"/home/selfsame/dev/final/src/sync/mouse.cljs",
+		"/home/selfsame/dev/final/src/commands/core.cljs",
+		"/home/selfsame/dev/final/src/commands/file.cljs",
+		"/home/selfsame/dev/final/src/commands/context.cljs",
+		"/home/selfsame/dev/final/src/commands/workspace.cljs",
+		"/home/selfsame/bin/timelapse.sh",
+		"/home/selfsame/dev/final/src/sync/core.cljs",
+		"/home/selfsame/ednlog/vid/ou.html",
+		"/home/selfsame/ednlog/vid/1.html",
+		"/home/vault/BlackIsle/New folder/cfnm/img/giflife.py",
+		"/home/selfsame/dev/final/resources/public/index.html",
+		"/home/selfsame/dev/final/src/comp/workspace.cljs",
+		"/home/selfsame/dev/final/src/sync/keys.cljs",
+		"/home/selfsame/dev/final/src/fp/canvas.cljs",
+		"/home/selfsame/dev/final/src/fp/macros.clj",
+		"/home/selfsame/dev/final/src/commands/modifiers.cljs",
+		"/home/selfsame/.config/sublime-text-3/Packages/SublimeREPL/Default (Linux).sublime-keymap",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/selfsame/dev/final/resources/public/demo/portfolio.html",
+		"/home/selfsame/dev/final/src/fp/read.cljs",
+		"/home/selfsame/dev/final/src/css/spec.cljs",
+		"/home/selfsame/dev/final/resources/public/demo/fontfancies.html",
+		"/home/selfsame/dev/final/src/css/units.cljs",
+		"/home/selfsame/unity/dual snake/Assets/snake/core.clj",
+		"/home/selfsame/dev/seecode/resources/public/data/code/dual-snake.clj",
+		"/home/selfsame/dev/seecode/resources/public/data/code/show.clj",
+		"/home/selfsame/unity/dual-snake/Assets/game/core.clj",
+		"/home/selfsame/dev/final/resources/public/js/libs/CSS_value_parser.peg",
+		"/home/selfsame/dev/final/resources/public/js/libs/CSS_value_parser.js",
+		"/home/selfsame/Downloads/parser (20).js",
+		"/home/selfsame/Downloads/parser (19).js",
+		"/home/selfsame/Downloads/parser (18).js",
+		"/home/selfsame/Downloads/portfolio.html (3).json",
+		"/home/selfsame/Downloads/portfolio.html (2).json",
+		"/home/selfsame/Downloads/portfolio.html (1).json",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/selfsame/Downloads/portfolio.html.json",
+		"/home/selfsame/Downloads/portfolio.html (3).edn",
+		"/home/selfsame/portfolio.html.edn",
+		"/home/selfsame/Downloads/portfolio2 (1).html",
+		"/home/selfsame/dev/final/resources/public/demo/portfolio2.html",
+		"/home/selfsame/Downloads/portfolio (3).html",
+		"/home/selfsame/dev/final/src/sync/space.cljs",
+		"/home/selfsame/dev/final/resources/public/js/tracking.js",
+		"/home/selfsame/dev/final/coffee/tracking.coffee",
+		"/home/selfsame/dev/final/resources/public/js/libs/peg-value-edn.js",
+		"/home/selfsame/Downloads/parser (17).js",
+		"/home/selfsame/dev/final/resources/public/js/libs/css-value-edn.peg",
+		"/home/selfsame/Downloads/parser (15).js",
+		"/home/selfsame/Downloads/parser (16).js",
+		"/home/selfsame/Downloads/parser (14).js",
+		"/home/selfsame/Downloads/parser (13).js",
+		"/home/selfsame/Downloads/flat (1).edn",
+		"/home/selfsame/Downloads/flat.edn",
+		"/home/selfsame/dev/seecode/resources/public/data/dark.json",
+		"/home/selfsame/dev/final/resources/public/demo/wikifun2.html",
+		"/home/selfsame/dev/final/resources/public/demo/clojure2.html",
+		"/home/selfsame/dev/final/resources/public/demo/clojure.html",
+		"/home/selfsame/dev/final/final.sublime-project",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/inform7.sublime-settings",
+		"/home/selfsame/dev/dungeon-planet.inform/Source/story.ni",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/selfsame/.Xresources",
+		"/home/selfsame/.compton.conf",
+		"/home/selfsame/.config/sublime-text-3/Packages/User/inform7.sublime-build",
+		"/home/selfsame/load_layout.sh",
+		"/home/selfsame/.i3/inform.json",
+		"/home/selfsame/dev/dungeon-planet.inform/Settings.plist",
+		"/home/selfsame/dev/dungeon-planet.inform//",
+		"/home/selfsame/Documents/i7manual.txt",
+		"/home/selfsame/home.sublime-project",
+		"/home/selfsame/dev/ipfs-desk/resources/public/css/style.css",
+		"/C/Users/jparker/Desktop/om.html",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/final/scripts/figwheel.clj",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/ifps3/core.cljs",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/resources/public/css/style.css",
+		"/C/Users/jparker/AppData/Roaming/Sublime Text 3/Packages/User/Scala.sublime-settings",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/heh/core.clj",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/ifps3/util.cljs",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/src/ifps3/data.cljs",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/scripts/figwheel.clj",
+		"/C/Users/jparker/Desktop/PROJECTS/joe/dev/ipfs-desk/resources/public/index.html",
+		"/C/Users/jplur/Desktop/oisjfd.gif",
+		"/C/Users/jplur/Desktop/dev/ifps3/resources/public/css/style.css",
+		"/C/Users/jplur/Desktop/dev/ifps3/scripts/figwheel.clj",
+		"/C/Users/jplur/Desktop/dev/ifps3/project.clj",
+		"/C/Users/jplur/Downloads/by-id",
+		"/C/Users/jplur/Desktop/dev/ifps3/src/ifps3/util.cljs",
+		"/C/Users/jplur/Desktop/dev/ifps3/db"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"/home/selfsame/dev/final/src",
+			"/home/selfsame/dev/final/resources/public/css",
+			"/home/selfsame/dev/final/resources",
+			"/home/selfsame/dev/final/src",
+			"/home/selfsame/dev/final/src/fast",
+			"/home/selfsame/dev/final/src",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3",
+			"C:\\Users\\jplur\\Desktop\\dev\\ifps3\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src\\fp",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\resources\\public\\css",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final\\src\\fp",
+			"C:\\Users\\jplur\\work\\dev\\unity\\demo\\Assets\\arcadia\\Source\\clojure",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\hard",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\warmup",
+			"C:\\Users\\jplur\\work\\dev\\unity\\LD33Warmup\\Assets\\hard",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			"C:\\Users\\jplur\\work\\dev\\final",
+			"C:\\Users\\jplur\\work\\dev\\final\\src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"throw",
+			"edn-local-refs",
+			"select-none ",
+			"'",
+			"fast.element",
+			"read-file",
+			"file-loaded",
+			"render",
+			"-recur-up",
+			"selected",
+			"hidden",
+			"element",
+			"touch!",
+			"mutate-val!",
+			"render",
+			"expanded-ancestor",
+			"-recur-down-while",
+			"-copy",
+			"tag!",
+			"selection",
+			"next",
+			"uid-path",
+			"-cached",
+			":selection",
+			":by-uid",
+			"update-native",
+			":by-uid",
+			"cond",
+			"tag",
+			"classes",
+			"ident?",
+			"css-text",
+			"css",
+			"metric",
+			"require",
+			"cd-fn",
+			"dialogue",
+			"Blur",
+			"))))))",
+			"try",
+			"throw",
+			"draw-textbox",
+			"layout",
+			"offsets",
+			"mutate",
+			"resize",
+			"-store",
+			"-height",
+			"NODE-APP",
+			"     {:",
+			"cwd",
+			"-record",
+			"[:style 0]",
+			"views",
+			":views",
+			"node",
+			"      :",
+			")\n",
+			"mutate",
+			"))))))\n",
+			"mutate",
+			"defer-record",
+			"-record",
+			"cursor",
+			"dirty-delta",
+			":uid->token",
+			"expanded-ancestor",
+			"collapse-uids",
+			"font-size",
+			"render-c",
+			"mapcat",
+			"vec",
+			":uid->token",
+			"prototype",
+			"alter-style",
+			"record",
+			"mutate-in",
+			"update-token-children",
+			"Element",
+			":type",
+			":class",
+			":id",
+			":style",
+			":type",
+			":uid",
+			":width",
+			":padding",
+			":padding-left",
+			"\\^D",
+			"^D",
+			"background",
+			"tmargin",
+			"t/",
+			"sync",
+			"]\n",
+			"record-state",
+			"ValueSet",
+			"[:",
+			"record",
+			"_",
+			"edn",
+			"get-in-dom",
+			"handle-under",
+			"-record",
+			":root-uid",
+			":outliner",
+			"type",
+			"render",
+			"record",
+			"ensure-inline",
+			"render-count",
+			"CONTEXT",
+			"std/touch",
+			"prn",
+			"std/update-in",
+			"_background",
+			"drag star",
+			"css-symbol-map",
+			"pprint",
+			"-edn",
+			"\\n",
+			"[^\\/]+\\?",
+			"\\n^",
+			"[^\\\"]+\\?",
+			"font-size",
+			"font-",
+			":value",
+			"mutate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Exception",
+			"->v3",
+			"\\{\\n\\t",
+			"{\\n\\t",
+			" ",
+			" '",
+			"' ",
+			"\" \"",
+			">\\n",
+			"\\n",
+			">\\n",
+			"",
+			"fp.",
+			"BumpTrigger",
+			"",
+			"h2 class=\"feature\"",
+			"h2 class=\"feature\"\n",
+			"/h2\n",
+			"},\n",
+			"\n}",
+			"\n{",
+			":\n",
+			":\\n",
+			"\"statmod\"",
+			"{%blue}",
+			"{#red}{#bold}",
+			"{#black}",
+			"#",
+			"{#yellow}~{#reset}",
+			"{#yellow}",
+			"{%green}#{yellow}{#bold}~{#reset}{%reset}",
+			"{#green}%{#reset}",
+			"cyan",
+			"magenta",
+			"cyan",
+			"green",
+			"black",
+			"%",
+			",\\n",
+			"  {\\n",
+			"[\\n",
+			"[\\r",
+			"[\\n",
+			"[\\n\\r",
+			"[\\n",
+			"call(",
+			"@given",
+			"scope_while",
+			"B \\033[m",
+			"\\033",
+			"/",
+			"%",
+			"arcadia.",
+			"t",
+			"->go",
+			"o",
+			"\"",
+			"#fddab2",
+			"#fdaa4a",
+			"#fdc88b",
+			"CSSBlockProxy"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tests/soa/tests.cljc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							]
+						],
+						"settings":
+						{
+							"auto_name": "(ns soa.tests",
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/soa/core.cljc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1446,
+								1446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20596,
+								20596
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "clojure",
+							"repl_id": "7b8a422794f64ccb8ac88abf2971d0b5",
+							"repl_restart_args":
+							{
+								"cmd":
+								{
+									"linux":
+									[
+										"lumo",
+										"-c",
+										"src:tests"
+									],
+									"osx":
+									[
+										"lumo",
+										"-c",
+										"src:tests"
+									],
+									"windows":
+									[
+										"lumo",
+										"-c",
+										"src:tests"
+									]
+								},
+								"cwd":
+								{
+									"linux": "$file_path",
+									"osx": "$file_path",
+									"windows": "$file_path"
+								},
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"INSIDE_EMACS": "1"
+								},
+								"external_id": "clojure",
+								"soft_quit": "\n(. System exit 0)\n",
+								"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9574.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "soa.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "project.clj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.499068702269,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/inform7.sublime-build",
+	"project": "soa.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"core",
+				"src/fp/core.cljs"
+			],
+			[
+				"todo",
+				"src/todo.cljs"
+			],
+			[
+				"st",
+				"src/comp/style.cljs"
+			],
+			[
+				"read",
+				"src/fp/read.cljs"
+			],
+			[
+				"canva",
+				"src/fp/canvas.cljs"
+			],
+			[
+				"flow",
+				"src/fp/flow.cljs"
+			],
+			[
+				"story",
+				"Source/story.ni"
+			],
+			[
+				"newdiv",
+				"coffee\\newdiv.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/final/final.sublime-project"
+			],
+			[
+				"see",
+				"~/dev/seecode/seecode.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

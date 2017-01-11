@@ -3,29 +3,26 @@
     [cljs.test :refer-macros [deftest is testing run-tests]]
     soa.core))
 
-(defrecord foo [a b c])
-(def foo-graph (soa.core/graph 5 foo))
+(def g (soa.core/graph [{:a 1}{:b 2}]))
 
 (deftest sequenciality
-  (is (= (count foo-graph) 5))
-  (is (= (-> foo-graph first :a) nil)))
+  (is (= (count g) 2))
+  (is (= (-> g first :a) 1))
+  (is (= (map :a (into g g))
+        '(1 nil 1 nil))))
 
 (deftest associativity
-  (is (= (keys foo-graph) 
-        '(0 1 2 3 4)))
+  (is (= (keys g) 
+        '(0 1)))
   ;possibly bad idea
-  (is (= (contains? foo-graph :a)
+  (is (= (contains? g :a)
          true))
-  (is (= (keys (first foo-graph)) 
-        '(:a :b :c)))
-  (is (= (type (first foo-graph))
+  (is (= (keys (first g)) 
+        '(:a :b)))
+  (is (= (type (first g))
          soa.core.Node))
-  (is (= (type (assoc (first foo-graph) ::z true))
-         soa.tests/foo))
-  (is (= (-> (soa.core/gupdate foo-graph 0 assoc :a ::z) first :a)
-         ::z))
-  ;gupdate ignores novel keys
-  (is (= (-> (soa.core/gupdate foo-graph 0 assoc :z ::z) first keys)
-        '(:a :b :c))))
-
+  ;novel keys
+  (is (= (-> (soa.core/gassoc g 0 :z ::z) first keys)
+        '(:a :b :z))))
+ 
 (run-tests)
