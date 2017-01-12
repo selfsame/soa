@@ -35,10 +35,14 @@
       rec (keys rec)))
   (gget [o id k] 
     (nth (get rec k) id))
+  IWithMeta
+  (-with-meta [o m] (Graph. cnt (-with-meta rec m)))
+  IMeta
+  (-meta [o] (-meta rec))
   ICounted
   (-count [coll] cnt)
   ISeqable
-  (-seq [o] (map-indexed #(soa.core.Node. o %1) (range cnt)))
+  (-seq [o] (map-indexed #(Node. o %1) (range cnt)))
   IIndexed
   (-nth [o n] (gget o n))
   (-nth [o n nf]

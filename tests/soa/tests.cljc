@@ -25,4 +25,8 @@
   (is (= (-> (soa.core/gassoc g 0 :z ::z) first keys)
         '(:a :b :z))))
  
+(deftest utility
+  (is (= (meta (with-meta (graph) {:a 0}))
+         {:a 0})))
+
 (run-tests)
