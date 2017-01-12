@@ -26,7 +26,7 @@
         '(:a :b :z))))
  
 (deftest utility
-  (is (= (meta (with-meta (graph) {:a 0}))
+  (is (= (meta (with-meta (soa.core/graph) {:a 0}))
          {:a 0})))
 
 (run-tests)

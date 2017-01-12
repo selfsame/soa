@@ -4,10 +4,10 @@ clojure [structure of arrays](https://en.wikipedia.org/wiki/AOS_and_SOA) data ty
 
 clojars
 ```clj
-[selfsame/soa "0.5-SNAPSHOT"]
+[selfsame/soa "0.6-SNAPSHOT"]
 ```
 
-Soa graphs provide lower memory profile for collections of homogeneous data.
+Soa graphs provide lower memory usage for collections of homogeneous data.
 
 Briefly, instead of a vector of maps
 ```clj
@@ -19,7 +19,6 @@ they're a map of vectors.
 {:a [1 3]
  :b [2 4]}
 ```
-
 
 ### usage
 
@@ -42,14 +41,14 @@ The introduction of novel keys affects all items.
 
 ```clj
 (conj g {:c 3})
-;#graph [{:a 1, :b nil, :c nil}{:a nil, :b 2, :c nil}{:a nil, :b nil, :c 3}]
+;#soa/graph [{:a 1, :b nil, :c nil}{:a nil, :b 2, :c nil}{:a nil, :b nil, :c 3}]
 ```
 
 iterating graphs returns instances of `soa.core/Node`, a wrapper for the graph and index. Nodes behave like maps.
 
 ```clj
 (first g)
-#object[soa.core.Node]
+#soa/node {:a 1, :b nil}
 
 (.-index (first g))
 ;0
@@ -65,8 +64,8 @@ Use `gupdate` and `gassoc` to alter a graph.
 
 ```clj
 (gupdate g 0 :b dec)
-;#graph [{:a 1, :b -1}{:a nil, :b 2}]
+;#soa/graph [{:a 1, :b -1}{:a nil, :b 2}]
 
 (gassoc g 1 :z 3)
-;#graph [{:a 1, :b nil, :z nil}{:a nil, :b 2, :z 3}]
+;#soa/graph [{:a 1, :b nil, :z nil}{:a nil, :b 2, :z 3}]
 ```
