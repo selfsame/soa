@@ -28,13 +28,13 @@ they're a map of vectors.
 (require 'soa.core)
 
 (graph [{:a 1}{:b 2}])
-;#graph [{:a 1, :b nil}{:a nil, :b 2}]
+;#soa/graph [{:a 1, :b nil}{:a nil, :b 2}]
 
 (.-rec g)
 ;{:a [1 nil], :b [nil 2]}
 
 (into g g)
-;#graph [{:a 1, :b nil}{:a nil, :b 2}{:a 1, :b nil}{:a nil, :b 2}]
+;#soa/graph [{:a 1, :b nil}{:a nil, :b 2}{:a 1, :b nil}{:a nil, :b 2}]
 ```
 
 The introduction of novel keys affects all items.
@@ -48,7 +48,7 @@ iterating graphs returns instances of `soa.core/Node`, a wrapper for the graph a
 
 ```clj
 (first g)
-#soa/node {:a 1, :b nil}
+;#soa/node {:a 1, :b nil}
 
 (.-index (first g))
 ;0
